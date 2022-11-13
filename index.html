@@ -7,7 +7,7 @@
     <title>Inicio | Coesp</title>
     <link rel="shortcut icon" href="./assets/img/coesp dorado.png" type="imagen/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.ccs">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
@@ -15,31 +15,14 @@
             <a class="logocoesp" href=""><img class=" logocoesp" src="./assets/img/coesp dorado.png" alt=""></a>
         </div>
         <nav>
-            <nav class="navbar navbar-expand-lg bg-">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html">Inicio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="./pages/quienes-somos.html">Qienes Somos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./pages/procedimientos.html">Procedimiento</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./pages/galeria.html">Galeria</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-          </nav>
+          <ul class="nav">
+            <li> <a href="./index.html">Inicio</a></li>
+            <li> <a href="./pages/quienes-somos.html">Quienes Somos</a></li>
+            <li> <a href="./pages/procedimientos.html">Procedimientos</a></li>
+            <li> <a href="./pages/galeria.html">Galeria</a></li>
+            <li> <a href="./pages/contacto.html">Contacto</a></li>
+          </ul>
+        </nav>          
     </header>    
     <main>
         <div>
@@ -47,25 +30,13 @@
                 Bienvenidos a Coesp
             </h1>
         </div>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./assets/img/IMG_1319.JPG" class="d-block w-100" alt="baner-1">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/img/IMG_2101.jpg" class="d-block w-100" alt="baner-2">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/img/IMG_2103.jpg" class="d-block w-100" alt="baner-3">
-            </div>
-          </div>
-        </div>
-        <div>
             <p>
                 En nuestra sede conseguiras a los mejores prosfesionales para que tengas la mejor experiencia, nos dedicamos a la salud bucal
                 y tenemos especialista decididos a mejorar tu sonrisa.
             </p>
         </div>
+        <div class="container">
+        <div>
         <div class="card" style="width: 18rem;">
           <img src="./assets/img/IMG_2110.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -73,17 +44,21 @@
             <p>Cursos, Conferencias y Capacitaciones</p>
           </div>
         </div>
+        </div>
+        <div>
         <div class="card" style="width: 18rem;">
           <img src="./assets/img/IMG_3880.JPG" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text">Tratamientos Esteticos</p>
           </div>
         </div>
+        </div>
         <div class="card" style="width: 18rem;">
           <img src="./assets/img/IMG_5392.JPG" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text">Odontologia General</p>
           </div>
+        </div>
         </div>
     </main>
     <footer>
@@ -100,7 +75,7 @@
         <ul class="mapa">
         <li class="mapa">
         <a href="https://goo.gl/maps/cvHH1C8H8EELJeSN8" target="_blank">Escalabrini Ortiz 1566 1B Buenos Aires Capital Federal</a>
-        <img src="./assets/img/icons8-mapas-de-google-48.png" alt="">
+        <img class="img-maps" src="./assets/img/icons8-mapas-de-google-48.png" alt="">
         </li>
     </ul>  
       </div>

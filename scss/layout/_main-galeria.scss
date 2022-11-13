@@ -1,0 +1,38 @@
+.galeria-texto{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.img-consultorio{
+    margin: 5px;
+    padding: 25px;
+    justify-content: center;
+
+    img{
+        width: 450px;
+        height: auto;
+        justify-content: center;
+        margin: 5px;
+        padding: 25px;
+        box-shadow: 11px 11px 19px -3px rgba(0,0,0,0.73);
+-webkit-box-shadow: 11px 11px 19px -3px rgba(0,0,0,0.73);
+-moz-box-shadow: 11px 11px 19px -3px rgba(0,0,0,0.73);
+    }
+}
+.galeria-instituto{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.img-instituto{
+    img{
+        width: 450px;
+        height: auto;
+        justify-content: center;    
+        padding: 25px;
+        margin: 5px;
+        box-shadow: 11px 11px 19px -3px rgba(0,0,0,0.73);
+-webkit-box-shadow: 11px 11px 19px -3px rgba(0,0,0,0.73);
+-moz-box-shadow: 11px 11px 19px -3px rgba(0,0,0,0.73);
+    }
+}

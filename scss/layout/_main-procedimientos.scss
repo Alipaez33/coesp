@@ -1,0 +1,42 @@
+
+.container-card{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-around;
+}
+.ortodoncia{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 25px;    
+}
+
+.container-video{
+    display: grid;
+    justify-content: center;
+}
+.video-1{
+        width: 550px;
+        height: auto;
+        display: flex;
+        margin: 15px;
+        }
+.video-2{
+    width: 550px;
+    height: auto;
+    display: flex;
+    margin: 15px;
+    }
+.video-3{
+    width: 450px;
+    height: auto;
+    display: flex;
+    margin: 15px;
+    }
+.practicas{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+

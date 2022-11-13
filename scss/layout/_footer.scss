@@ -1,0 +1,27 @@
+footer{
+    width: auto;
+    height: auto;
+    background-color: yellow;
+    }
+    .redes-sociales{
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        color: black;
+        word-spacing: 2px;
+        margin: 5px;
+    }
+    .mapa li a{
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        justify-content: end;
+        color: black;
+        font-size: 20px;
+        margin: 10px;
+        font-weight: lighter;
+    }
+    ul  .mapa {
+        display: flex;
+        justify-content: end;
+    }

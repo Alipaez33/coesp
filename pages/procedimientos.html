@@ -7,44 +7,30 @@
     <title>Procedimientos | Coesp</title>
     <link rel="shortcut icon" href="../assets/img/coesp dorado.png" type="imagen/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.ccs">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-<body container-fluid>
+<body>
     <header>
+      <div>
         <div>
             <a class="logocoesp" href=""><img class=" logocoesp" src="../assets/img/coesp dorado.png" alt=""></a>
         </div>
         <nav>
-            <nav class="navbar navbar-expand-lg bg-">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">Inicio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="../pages/quienes-somos.html">Qienes Somos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="../pages/procedimientos.html">Procedimiento</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="../pages/galeria.html">Galeria</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-          </nav>
+          <ul class="nav">
+            <li> <a href="../index.html">Inicio</a></li>
+            <li> <a href="../pages/quienes-somos.html">Quienes Somos</a></li>
+            <li> <a href="../pages/procedimientos.html">Procedimientos</a></li>
+            <li> <a href="../pages/galeria.html">Galeria</a></li>
+            <li> <a href="../pages/contacto.html">Contacto</a></li>
+          </ul>
+        </nav>  
+          </div>
     </header>
     <main>
-      <h2>
+      <h2 class="ortodoncia">
         Ortodoncia
       </h2>
+      <div class="container-card">
       <div class="card" style="width: 18rem;">
         <img src="../assets/img/brackets-de-porcelana.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -59,7 +45,6 @@
         <img src="../assets/img/precio-brackets-de-zafiro.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <p class="card-text"> Brackets De Zafiro </p>
-
               <p>Los brackets de zafiro se elaboran con cristales de zafiro, material
              que garantiza una increíble adherencia, resistencia así como transparencia 
              (a diferencia de los cerámicos son más puramente cristalinos, más transparentes, más como el cristal, sin color alguno)
@@ -86,17 +71,20 @@
             Están diseñados para aquellos pacientes que rechazan la opción antiestética de los brackets metálicos o autoligables y buscan una solución discreta y económica</p>
         </div>
       </div>
-      <h2>Blanqueamientos Dentales</h2>
-      <div>
-        <video controls src="../assets/video/Videoleap-E8D665A5-48B0-4D31-9C5E-6C0B7D5476F8.MOV"></video>
       </div>
-      <h2>Bichectomia</h2>
+      <div class="container-video">
+      <h2 class="practicas">Blanqueamientos Dentales</h2>
       <div>
-        <video controls src="../assets/video/Videoleap-45A8E33B-0A3C-465B-81DC-76EDFE686377.MOV"></video>
+        <video class="video-1" controls src="../assets/video/Videoleap-E8D665A5-48B0-4D31-9C5E-6C0B7D5476F8.MOV"></video>
       </div>
-      <h2>Odontologia Estetica</h2>
+      <h2 class="practicas">Bichectomia</h2>
       <div>
-        <video controls src="../assets/video/Videoleap-F1E013F5-9184-42DF-9886-592B72B05BF9 - Compressed with FlexClip.mp4"></video>
+        <video class="video-2" controls src="../assets/video/Videoleap-45A8E33B-0A3C-465B-81DC-76EDFE686377.MOV"></video>
+      </div>
+      <h2 class="practicas">Odontologia Estetica</h2>
+      <div>
+        <video class="video-3" controls src="../assets/video/Videoleap-F1E013F5-9184-42DF-9886-592B72B05BF9 - Compressed with FlexClip.mp4"></video>
+      </div>
       </div>
     </main>
     <footer>
