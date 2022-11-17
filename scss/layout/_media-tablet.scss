@@ -22,7 +22,7 @@
     }
    .container{
         display: grid;
-        grid-template-columns: (1, 1fr);
+        grid-template-columns: (1fr);
         grid-template-rows: (3, 1fr);
         grid-template-areas: 
         "card"
@@ -30,9 +30,9 @@
         "card"     
         ;
         div{
-            width: 700px;
+            width: 768px;
         }
-        .card{
+      .card{
             width: 768px;
             display: grid;
             grid-template-columns: (2, 1fr)

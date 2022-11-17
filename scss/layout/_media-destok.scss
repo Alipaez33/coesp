@@ -1,5 +1,5 @@
-@media (max-width: 992px){
-
+@media (max-width: 992px)
+                        {
     header{
         display: grid;
         width: 992px;
@@ -19,6 +19,9 @@
         display: grid;
         width: 992px;
         height: auto;
+        p{
+            width: auto;
+        }
     }
    .container{
         display: grid;

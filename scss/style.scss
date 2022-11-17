@@ -1,4 +1,5 @@
 @import "./base/reset";
+@import "./layout/body";
 @import "./layout/header";
 @import "./layout/main-index";
 @import "./layout/main-quienes-somos";
@@ -7,10 +8,12 @@
 @import "./layout/main-contacto";
 @import "./layout/footer";
 @import "./components/bootstrap";
-@import "./layout/media-small";
-@import "./layout/media-mobile";
-@import "./layout/media-tablet";
-@import "./layout/media-destok";
+@import "./scss/layout/media-destok";
+@import "./scss/layout/media-tablet";
+
+
+
+
 
 
 

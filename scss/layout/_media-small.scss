@@ -1,5 +1,5 @@
-@media (max-width: 400px){
-
+@media (min-width: 400px)
+                        {
     header{
         display: grid;
         width: 400px;
@@ -19,8 +19,15 @@
         display: grid;
         width: 400px;
         height: auto;
+        p{
+            width: 400px;
+        }
+        h2{
+            width: 400px;
+        }
     }
     .container{
+        width: 400px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: (3, 1fr);
@@ -29,17 +36,13 @@
         "card"
         "card"
         ;
-        .card{
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: (3, 1fr);
-            grid-template-areas: 
-            "card"
-            "card"
-            "card"
-            ;
-        }
-        }
+         }
+         .card-img-top{
+            width: 400px;
+         }
+         div{
+            width: 400px;
+         }
         .container-card{
             display: grid;
             grid-template-columns: 1fr;
